@@ -7,5 +7,7 @@ To sum it up, this project allows a user to generate a python file which will de
 * The output will determine whether or not the entered value is odd or even.
 
 ## Purpose
-I think we can get caught up in efficiencies which can lead to difficult to understand solution. A great example of this is how we determine whether or not a number
-is odd or even.
+I think we can get caught up in efficiency which can lead to a difficult to understand solution. A great example of this is how 
+we determine whether or not a number is odd or even. We usually just run (num % 2 == 0) or (num % 2 == 1) to see if a number is
+odd or even. The (%) operator is sometimes difficult to understand. If statements, on the other hand, are about as simple as it
+gets. This software is incredibly easy to understand, and it is decently efficient (linear (O(n) runtime).
